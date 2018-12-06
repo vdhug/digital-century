@@ -1,18 +1,19 @@
 /* General Stylesheets */
 
 @import url("https://use.typekit.net/wnh4zdp.css");
-@import url('https://fonts.googleapis.com/css?family=Limelight');
+@import url('https://fonts.googleapis.com/css?family=Limelight|Slabo+27px|Playfair+Display');
 
 body {
 	font-family: 'Limelight', cursive;
 	font-weight: 300;
+	line-height: 1;
 }
 
 p {
-	font-family: adobe-caslon-pro, serif;
+	font-family: 'Slabo 27px', serif;
 	font-size: 1em;
 	font-style: italic;
-	font-weight: 400;
+	font-weight: 300;
 	color: #302d3d;
 }
 
@@ -51,15 +52,14 @@ img {
 .icon-menu:before {
   content: "\e9bd";
 }
-
-.icon-checkbox:before {
-  content: "\ea53";
-}
 .icon-linkedin:before {
-  content: "\eaca";
+  content: "\eac9";
 }
 .icon-github:before {
   content: "\eab0";
+}
+.icon-circle:before {
+  content: "\ea56";
 }
 
 
@@ -79,13 +79,14 @@ img {
 
 .header_menu ul li span {
 	font-size: 2.5em;
-	line-height: 1.25em;
+	line-height: 1.25;
 	color: #FFF;
 }
 
 .introduction {
 	margin-top: 100px;
 	padding-top: 60px;
+	margin-bottom: 45px;
 }
 
 .logo img {
@@ -93,16 +94,142 @@ img {
 }
 
 .introduction p {
+	font-family: adobe-caslon-pro, serif;
 	font-size: 2.14em;
-	line-height: 30px;
 	max-width: 300px;
 }
 
 .introduction h1 {
-	font-size: 4.28em;
-
+	font-size: 4em;
+	color: #b49f81;
 }
 
+.introduction h1:after, .introduction h1:before {
+	content: "";
+	display: block;
+	width: 130px;
+	height: 8px;
+	margin: 15px 0;
+	background: #b49f81;
+}
+
+.process {
+	background-color: #302e3e;
+	padding-bottom: 60px;
+}
+
+.process h1, .prices h1 {
+	font-size: 3.42em;
+	margin-top: 60px;
+}
+
+.process h1:after {
+	content: "";
+	display: block;
+	width: 130px;
+	height: 8px;
+	margin: 15px 0;
+	background: #000;
+}
+
+.process-item {
+	margin-top: 40px;
+}
+
+.process-item h2 {
+	font-size: 5.14em;
+	color: #b49f81;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 6px #b49f81;
+  text-align: center;
+}
+
+.process-item p {
+	font-size: 1.28em;
+	line-height: 1.78;
+	color: #9c9ba3;
+    padding-top: 20px;
+}
+
+.prices {
+	padding-bottom: 60px;
+}
+
+.prices h1 {
+	text-align: center;
+	color: #302e3e;
+}
+
+.prices h1:after {
+	content: "";
+	display: block;
+	width: 130px;
+	height: 8px;
+	margin: 15px auto;
+	background: #302e3e;
+}
+
+.price-item {
+	border: 8px solid #302e3e;
+	margin-top: 45px;
+}
+
+.price-item h2 {
+	font-size: 3.42em;
+	text-align: center;
+	color: #302e3e;
+	padding: 20px 0;
+	background-color: #b49f81;
+	border-bottom: 8px solid #302e3e;
+}
+
+.price-item ul li {
+	font-size: 1.71em;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 10px;
+	border-bottom: 4px solid #eaeaeb;
+}
+
+.price-item h3 {
+	font-size: 2.14em;
+	color: #302d3d;
+	text-align: center;
+	margin: 30px 0;
+}
+
+
+
+.call {
+	padding-top: 56px;
+	text-align: center;
+	clear: both;
+}
+
+
+
+.btn {
+	border: 6px solid #b49f81;
+    padding: 10px 30px;
+	font-family: 'Playfair Display', serif;
+    color: #b49f81;
+    font-size: 1em;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.btn:hover {
+	border-color: #302e3e;
+	color: #302e3e;
+}
 /* */
 .copy {
 	width: 100%;
@@ -125,5 +252,5 @@ img {
 
 
 .copy-info a span:hover {
-	color: #f78e2c;
+	color: #b49f81;
 }
