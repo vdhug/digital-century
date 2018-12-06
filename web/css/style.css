@@ -1,0 +1,129 @@
+/* General Stylesheets */
+
+@import url("https://use.typekit.net/wnh4zdp.css");
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+
+body {
+	font-family: 'Limelight', cursive;
+	font-weight: 300;
+}
+
+p {
+	font-family: adobe-caslon-pro, serif;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+	color: #302d3d;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?v7vlkf');
+  src:  url('../fonts/icomoon.eot?v7vlkf#iefix') format('embedded-opentype'),
+    url('..//fonts/icomoon.ttf?v7vlkf') format('truetype'),
+    url('../fonts/icomoon.woff?v7vlkf') format('woff'),
+    url('../fonts/icomoon.svg?v7vlkf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+}
+
+.icon-checkbox:before {
+  content: "\ea53";
+}
+.icon-linkedin:before {
+  content: "\eaca";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+
+
+/* Header */
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #302e3e; /* Branco */
+	padding: 15px 0;
+	z-index: 10;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li span {
+	font-size: 2.5em;
+	line-height: 1.25em;
+	color: #FFF;
+}
+
+.introduction {
+	margin-top: 100px;
+	padding-top: 60px;
+}
+
+.logo img {
+	float: right;
+}
+
+.introduction p {
+	font-size: 2.14em;
+	line-height: 30px;
+	max-width: 300px;
+}
+
+.introduction h1 {
+	font-size: 4.28em;
+
+}
+
+/* */
+.copy {
+	width: 100%;
+	background: #302d3d;
+	padding: 20px 0;
+}
+
+.copy-info p {
+	color: #FFF;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+.copy-info a span {
+	float: right;
+	font-size: 1.55em;
+	color: #FFF;
+	margin-left: 20px;
+}
+
+
+.copy-info a span:hover {
+	color: #f78e2c;
+}

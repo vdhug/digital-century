@@ -1,0 +1,71 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.quote-phrase {
+
+	font-size: 2.25em;
+}
+
+
+} /* Final do estilo para tablets */
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+
+.header {
+	position: absolute;
+}
+
+.header_menu {
+	display: none;
+}
+
+.introduction {
+	height: 190px;
+	padding-top: 30px;
+}
+
+.introduction h1 {
+	font-size: 2.1em;
+}
+
+.kakuna_icon {
+	display: none;
+}
+
+.info li {
+	font-size: 1.1em;
+}
+
+.quote-phrase {
+	font-size: 1em;
+	line-height: 40px;
+	padding-bottom: 10px;
+}
+
+.quote-author:before {
+	margin: 5px auto;
+}
+
+.portfolio_icon {
+	margin-top: 20px;
+}
+
+.copy {
+	padding: 10px 0;
+}
+
+.copy-info {
+	margin-bottom: 0px;
+}
+
+.copy-info p {
+	font-size: 1em;
+}
+
+.copy-info a span {
+	font-size: 1em;
+	margin-left: 9px;
+}
+
+} /* Final do estilo para smartphone 
