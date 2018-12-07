@@ -1,54 +1,48 @@
 /*Estilo para tablets*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
-.quote-phrase {
-
-	font-size: 2.25em;
 }
-
-
-} /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 767px) {
 
-.header {
-	position: absolute;
+
+.introduction p, .price-item h3 {
+	font-size: 1.71em;
+}
+
+
+.introduction h1 {
+	font-size: 3.2em;
+}
+
+.process h1, .prices h1, .price-item h2 {
+	font-size: 2.73em;
+}
+
+.process-item h2 {
+	font-size: 4.11em;
+}
+
+.process-item p {
+	font-size: 1.02em;
+}
+
+.price-item ul li {
+	font-size: 1.36em;
+}
+
+.circle {
+	width: 80px;
+  	height: 80px;
 }
 
 .header_menu {
 	display: none;
 }
 
-.introduction {
-	height: 190px;
-	padding-top: 30px;
-}
-
-.introduction h1 {
-	font-size: 2.1em;
-}
-
-.kakuna_icon {
+.logo {
 	display: none;
-}
-
-.info li {
-	font-size: 1.1em;
-}
-
-.quote-phrase {
-	font-size: 1em;
-	line-height: 40px;
-	padding-bottom: 10px;
-}
-
-.quote-author:before {
-	margin: 5px auto;
-}
-
-.portfolio_icon {
-	margin-top: 20px;
 }
 
 .copy {
@@ -56,16 +50,12 @@
 }
 
 .copy-info {
-	margin-bottom: 0px;
+	margin: 10px 0;
 }
 
-.copy-info p {
+.copy-info p, .copy-info a span {
 	font-size: 1em;
+	margin-left: 5px;
 }
 
-.copy-info a span {
-	font-size: 1em;
-	margin-left: 9px;
-}
-
-} /* Final do estilo para smartphone 
+} /* Final do estilo para smartphone
